@@ -11,9 +11,15 @@ const app = (req, res) => {
   )
 
   const html = `<!DOCTYPE html>
-<title>hello</title>
-<div id=root>${body}</div>
-<script src='${assets.main.js}'></script>
+<html>
+<head>
+  <title>hello</title>
+</head>
+<body>
+  <div id=root>${body}</div>
+  <script src='${assets.main.js}'></script>
+</body>
+</html>
   `
 
   res.send(html)
