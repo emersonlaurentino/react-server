@@ -16,8 +16,8 @@ const app = (req, res) => {
   <title>hello</title>
 </head>
 <body>
-  <div id=root>${body}</div>
-  <script src='${assets.main.js}'></script>
+  <div id="root">${body}</div>
+  <script src="${assets.main.js}"></script>
 </body>
 </html>
   `
